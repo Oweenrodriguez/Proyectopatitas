@@ -1,0 +1,197 @@
+body {
+    background-color: #e4fbfb;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 60px;
+    background-color: palegreen;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+a:active {
+    color:white;
+}
+
+h2 {
+    text-decoration: none;
+    color: black;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+.container1{
+    .container1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.category-box1 {
+    text-align: center;    
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-size: x-large;
+}
+
+
+.container2 {
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }    
+}
+
+.category-box2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.category-box2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+#Whiskas {
+    background-color: #b0c2f2;
+    margin: 30px;
+}
+
+#Purina {
+    background-color: #d8f8e1;
+    margin: 30px;
+}
+
+#Pedigree {
+    background-color: #b0f2c2;
+    margin: 30px;
+}
+
+.container3 {
+    .container3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }    
+}
+
+.category-box3 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.category-box3:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#RoyalC {
+    background-color: #E6E6FA;
+    margin: 30px;
+}
+
+#GatoPurina {
+    background-color: #f4fab4;
+    margin: 30px;
+}
+
+#CatChow {
+    background-color: #caacf9;
+    margin: 30px;
+}
+
+.add-to-cart {
+    
+        background-color: #4c8caf;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #00a6ff;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    flex: 0 0 25%; /* Ocupar el 25% del ancho disponible */
+    margin: 10px;
+}
+
+#confirm-purchase {
+    background-color: #4c8caf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#confirm-purchase:hover {
+    background-color: #00a6ff;
+}

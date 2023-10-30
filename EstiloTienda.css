@@ -1,0 +1,239 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+a:hover {
+    background-color: pink;
+}
+
+a:active {
+    color:white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 45px;
+    margin-right: 15px;
+}
+
+nav.a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color:white
+}
+
+.logo:hover{
+    color:white
+}
+
+h2 {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }    
+}
+
+.category-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.category-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+#accesorios {
+    background-color: paleturquoise;
+    margin: 30px;
+}
+
+#alimentos {
+    background-color: palegreen;
+    margin: 30px;
+}
+
+#higiene {
+    background-color: palegoldenrod;
+    margin: 30px;
+}
+
+.prod-vent{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.container2 {
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }    
+}
+
+.category-box2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.category-box2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+#Whiskas {
+    background-color: #ADA2FF;
+    margin: 30px;
+}
+
+#Purina {
+    background-color: #C0DEFF;
+    margin: 30px;
+}
+
+#Pedigree {
+    background-color: #CEEDC7;
+    margin: 30px;
+}
+
+.container3 {
+    .container3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }    
+}
+
+.category-box3 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.category-box3:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#Bowl {
+    background-color: #FBFACD;
+    margin: 30px;
+}
+
+.category-boxPD {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    background-color: pink;
+    border-radius: 35px;
+    
+}
+
+#Collar {
+    background-color: #CEE5D0;
+    margin: 30px;
+}
+
+#Capas {
+    background-color: #F7E9D7;
+    margin: 30px;
+}
+
+#BotonCompra {
+    background-color: #4c8caf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#BotonCompra:hover {
+    background-color: #00a6ff;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#ProdDest {
+    background-color: palegoldenrod;
+    margin: 15px;
+    font-size: x-large;
+}

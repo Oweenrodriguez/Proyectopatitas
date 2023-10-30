@@ -1,0 +1,197 @@
+body {
+    background-color: #FFE5E5;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 60px;
+    background-color: palegoldenrod;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: left;
+    color: black;
+}
+
+
+h2 {
+    text-decoration: none;
+    color: black;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+.container2 {
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }    
+}
+
+.category-box2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.category-box2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+#Pañales {
+    background-color: #AEE2FF;
+    margin: 30px;
+}
+
+#CortaUñas {
+    background-color: #F3CCFF;
+    margin: 30px;
+}
+
+#CepilloDientes {
+    background-color: #d3fff2;
+    margin: 30px;
+}
+
+.container3 {
+    .container3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }    
+}
+
+.category-box3 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.container1{
+    .container1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.category-box1 {
+    text-align: center;    
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-size: x-large;
+}
+
+
+.category-box3:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    flex: 0 0 25%; /* Ocupar el 25% del ancho disponible */
+    margin: 10px;
+}
+
+#PiedrasGatos {
+    background-color: #ddfce1;
+    margin: 30px;
+}
+
+#Shampoo {
+    background-color: #FAEDCD;
+    margin: 30px;
+}
+
+#CepilloPelos {
+    background-color: #daf9ff;
+    margin: 30px;
+}
+
+#confirm-purchase {
+    background-color: #4c8caf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#confirm-purchase:hover {
+    background-color: #00a6ff;
+}
+
+.add-to-cart {
+    background-color: #4c8caf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #00a6ff;
+}
+
+
+
